@@ -14,9 +14,8 @@ This repository contains the core machine learning model for the **Madhur Music 
 - **`similarity.py`** → Computes the **cosine similarity** between songs using audio features.  
 - **`similarity-npz.py`** → Converts and stores similarity data efficiently in a **compressed sparse matrix** format.  
 - **`recommendation.py`** → FastAPI backend that handles requests and returns music recommendations.  
-- **`dataset.csv`** → The dataset containing song features and metadata (not included in the repo).  
-
----
+- **`dataset.csv`** → The dataset containing song features and metadata (not included in the repo).
+  
 
 ## **⚙️ Setup & Installation**  
 ### **🔹 Prerequisites**  
