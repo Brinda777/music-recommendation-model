@@ -57,7 +57,6 @@ pip install -r requirements.txt
    ```
    The API will be available at `http://localhost:8000/`.  
 
----
 
 ## **🚀 API Endpoints**  
 | Method | Endpoint | Description |  
