@@ -4,7 +4,6 @@ This repository contains the core machine learning model for the **Madhur Music 
 
 
 
-
 ## **📌 Features**  
 - **Hybrid Recommendation System**: Uses **content-based filtering** (analyzing song features like danceability, energy, and tempo) and **collaborative filtering** (learning from similar users).  
 - **Optimized Data Processing**: Reduces memory usage and speeds up calculations.  
