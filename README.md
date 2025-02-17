@@ -8,7 +8,6 @@ This repository contains the core machine learning model for the **Madhur Music 
 - **Scalable Similarity Calculation**: Uses **cosine similarity** on a large dataset to find the most relevant songs.  
 - **Integration with FastAPI**: Can be connected to an API for real-time recommendations.  
 
----
 
 ## **📂 Project Structure**  
 - **`app.py`** → Loads and processes the dataset, reducing memory usage.  
