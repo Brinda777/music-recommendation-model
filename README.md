@@ -2,13 +2,11 @@
 
 This repository contains the core machine learning model for the **Madhur Music Recommendation System**, which provides personalized song recommendations using **content-based filtering and item-based collaborative filtering**. The model processes song attributes and user interactions to generate relevant music suggestions.  
 
-
 ## **📌 Features**  
 - **Hybrid Recommendation System**: Uses **content-based filtering** (analyzing song features like danceability, energy, and tempo) and **collaborative filtering** (learning from similar users).  
 - **Optimized Data Processing**: Reduces memory usage and speeds up calculations.  
 - **Scalable Similarity Calculation**: Uses **cosine similarity** on a large dataset to find the most relevant songs.  
 - **Integration with FastAPI**: Can be connected to an API for real-time recommendations.  
-
 
 ## **📂 Project Structure**  
 - **`app.py`** → Loads and processes the dataset, reducing memory usage.  
@@ -17,7 +15,6 @@ This repository contains the core machine learning model for the **Madhur Music 
 - **`recommendation.py`** → FastAPI backend that handles requests and returns music recommendations.  
 - **`dataset.csv`** → The dataset containing song features and metadata (not included in the repo).
   
-
 ## **⚙️ Setup & Installation**  
 ### **🔹 Prerequisites**  
 Ensure you have **Python 3.8+** installed, along with the required dependencies:  
@@ -57,7 +54,6 @@ pip install -r requirements.txt
    uvicorn recommendation:app --host 0.0.0.0 --port 8000 --reload
    ```
    The API will be available at `http://localhost:8000/`.  
-
 
 ## **🚀 API Endpoints**  
 | Method | Endpoint | Description |  
