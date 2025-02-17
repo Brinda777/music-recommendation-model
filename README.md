@@ -49,7 +49,6 @@ pip install -r requirements.txt
    python similarity-npz.py
    ```
 
-
 6. **Run the recommendation API**  
    ```bash
    uvicorn recommendation:app --host 0.0.0.0 --port 8000 --reload
