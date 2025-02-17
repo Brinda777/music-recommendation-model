@@ -65,8 +65,6 @@ pip install -r requirements.txt
 | `POST` | `/get_options` | Returns a list of matching songs based on a search query. |  
 | `POST` | `/get_recommendations` | Provides top **10** recommended songs for a selected track. |  
 
----
-
 ## **🛠 Future Enhancements**  
 - Improve recommendation accuracy with **deep learning** models.  
 - Introduce **real-time user feedback** to refine recommendations.  
