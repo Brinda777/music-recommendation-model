@@ -74,6 +74,3 @@ pip install -r requirements.txt
 
 🎵 **Enjoy smart and personalized music recommendations!** 🎵  
 
----
-
-Let me know if you'd like any modifications! 🚀
