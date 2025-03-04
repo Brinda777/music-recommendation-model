@@ -1,5 +1,5 @@
 from models import df, knn, features
-from spotify_helper import get_song_album_cover_url
+from spotify_helper import get_song_image_url
 
 # Recommend songs using Nearest Neighbors
 def recommend_songs(song_name, top_n=10):
@@ -20,7 +20,7 @@ def recommend_songs(song_name, top_n=10):
 
         if (song, artist) not in seen_songs:
             seen_songs.add((song, artist))
-            image_url = get_song_album_cover_url(song, artist)
+            image_url = get_song_image_url(song)
             recommendations.append({"song": song, "artist": artist, "image": image_url})
             recommended_names.append(song)
 
