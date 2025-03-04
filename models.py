@@ -17,5 +17,5 @@ scaler = StandardScaler()
 df[features] = scaler.fit_transform(df[features])
 
 # Train KNN Model
-knn = NearestNeighbors(n_neighbors=6, metric='cosine', algorithm='brute')
+knn = NearestNeighbors(n_neighbors=6, metric='euclidean', algorithm='brute')
 knn.fit(df[features])
