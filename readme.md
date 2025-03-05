@@ -10,7 +10,6 @@ This project is a **content-based and item based collaborative music recommendat
 - **Evaluation Metrics**: Computes **Mean Average Precision (MAP)** for accuracy.  
 - **Postman Testing**: API endpoints can be tested in **Postman**.  
 
-
 ## 🛠️ Tech Stack  
 - **Python** (Pandas, NumPy, Scikit-learn)  
 - **Flask** (for the API)  
