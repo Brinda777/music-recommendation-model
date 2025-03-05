@@ -15,6 +15,7 @@ This project is a **content-based and item based collaborative music recommendat
 - **Flask** (for the API)  
 - **Spotipy** (Spotify API integration)  
 - **Postman** (for testing)  
+
  
 ## 📂 Project Structure  
 ```plaintext
