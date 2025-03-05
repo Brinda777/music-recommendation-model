@@ -15,5 +15,15 @@ This project is a **content-based music recommendation system** that suggests si
 - **Flask** (for the API)  
 - **Spotipy** (Spotify API integration)  
 - **Postman** (for testing)  
-
+ 
 ## 📂 Project Structure  
+```plaintext
+│── .env                  # Environment variables (Spotify API credentials)
+│── app.py                # Flask API for song recommendations
+│── config.py             # Spotify API authentication setup
+│── models.py             # KNN model training with song features
+│── recommender.py        # Recommendation logic using KNN
+│── accuracy.py           # Evaluation using Mean Average Precision (MAP)
+│── spotify_helper.py     # Fetching song images from Spotify API
+│── tracks.csv            # Dataset containing song features
+│── README.md             # Project documentation
