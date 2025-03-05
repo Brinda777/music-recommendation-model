@@ -2,7 +2,6 @@
 
 This project is a **content-based and item based collaborative music recommendation system** that suggests similar songs based on audio features like **danceability, energy, and tempo**. It uses **K-Nearest Neighbors (KNN)** for recommendations and integrates with the **Spotify API** to fetch song images. The system is served through a **Flask API** and evaluated using **Mean Average Precision (MAP)**.
 
-
 ## 🚀 Features  
 - **Song Recommendations**: Suggests similar tracks based on audio features.  
 - **Spotify API Integration**: Fetches album cover images for recommended songs.  
