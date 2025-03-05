@@ -30,6 +30,8 @@ This project is a **content-based music recommendation system** that suggests si
 
 ```
 
+
+## 📂   Run the Flask API
 ```bash
 python app.py
 
