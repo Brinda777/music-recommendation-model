@@ -1,4 +1,4 @@
-# 🎵 Music Recommendation System  
+# 🎵 Music Recommendation Model
 
 This project is a **content-based music recommendation system** that suggests similar songs based on audio features like **danceability, energy, and tempo**. It uses **K-Nearest Neighbors (KNN)** for recommendations and integrates with the **Spotify API** to fetch album cover images. The system is served through a **Flask API** and evaluated using **Mean Average Precision (MAP)**.
 
@@ -30,8 +30,7 @@ This project is a **content-based music recommendation system** that suggests si
 
 ```
 
-
-## 📂   Run the Flask API
+## 🚀 Run the Flask API
 ```bash
 python app.py
 
