@@ -28,14 +28,9 @@ This project is a **content-based music recommendation system** that suggests si
 │── tracks.csv            # Dataset containing song features
 │── README.md             # Project documentation
 
-## 📌 Setup & Installation  
 
-### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/music-recommendation.git
-cd music-recommendation
-
-
+python app.py
 
 
 
