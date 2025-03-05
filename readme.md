@@ -28,6 +28,7 @@ This project is a **content-based music recommendation system** that suggests si
 │── tracks.csv            # Dataset containing song features
 │── README.md             # Project documentation
 
+```
 
 ```bash
 python app.py
